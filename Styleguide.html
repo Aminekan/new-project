@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agiloft Intranet</title>
+    <link rel="stylesheet" href="newindix.css">
+
+    <header style="background-color: #102d50; color: white; padding: 10px 20px;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex; align-items: center;">
+                <img src="logo.png" alt="AgilSoft GmbH Logo" style="height: 80px; margin-right: 10px;">
+                <h1 style="font-size: 1.5em; margin: 0;">Agiloft GmbH</h1>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="#personal">Persönliches</a></li>
+                    <li><a href="#it-support">IT-Support</a></li>
+                    <li>
+                        <a href="#workstations">Workstations</a>
+                        <ul class="submenu">
+                            <li><a href="workstation.html">Eine Workstation</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="NeuTick.html">Ticketsystem</a>
+                        <ul class="submenu">
+                            <li><a href="NeuTick.html">Neues Ticket</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#mitarbeiter">Mitarbeiter</a>
+                    </li>
+                    <li>
+                        <a href="#entwickler">Entwickler</a>
+                        <ul class="submenu">
+                            <li><a href="Styleguide.html">Code Styleguides</a></li>
+                            <li><a href="scrum.html">Vorgehensmodelle (Scrum)</a></li>
+                            <li><a href="#tools">Entwicklungstools</a></li>
+                            <li>
+                                <a href="#linux">Linux</a>
+                                <ul class="submenu">
+                                    <li><a href="#linux-commands">Dateisystem-Befehle</a></li>
+                                    <li><a href="#linux-table">Tabelle</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+    </header>
+    <div class="container">
+
+        <section class="code-styleguide">
+            <h2 id="code">Code Styleguide</h2>
+            <p>Ein Styleguide hilft dabei, den Code konsistent und leserlich zu halten. Hier sind einige wichtige
+                Richtlinien:</p>
+
+            <h3>1. Einrückung</h3>
+            <p>Verwende 2 Leerzeichen für die Einrückung.</p>
+            <pre><code>function example() {
+  console.log("Hello, world!");
+}</code></pre>
+
+            <h3>2. Variablen</h3>
+            <p>Nutze <code>const</code> für unveränderliche Werte und <code>let</code> für veränderliche. Vermeide
+                <code>var</code>.</p>
+
+            <h3>3. Namen</h3>
+            <p>Verwende <code>camelCase</code> für Variablen und Funktionen.</p>
+            <pre><code>let userName = "Amine";</code>
+            <code>or var variable = 2; </code></pre>
+
+            <h3>4. Kommentare</h3>
+            <p>Nutze <code>//</code> für Einzelzeilenkommentare und <code>/*  */</code> für Blockkommentare.</p>
+            <pre><code>// Dies ist ein Einzelzeilenkommentar
+/* Dies ist ein Blockkommentar */</code></pre>
+
+            <h3>5. Semikolons</h3>
+           <pre><code>Setze immer Semikolons ans Ende einer Anweisung > ";"</code></pre>
+
+            <h3>6. Funktionen</h3>
+            <p>Bevorzuge Pfeilfunktionen, wenn sie lesbarer sind.</p>
+            <pre><code>const add = (a, b) => a + b;</code></pre>
+        </section>
+        </html>

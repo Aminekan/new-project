@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agiloft Intranet</title>
+    <link rel="stylesheet" href="newindix.css">
+
+    <header style="background-color: #102d50; color: white; padding: 10px 20px;">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex; align-items: center;">
+                <img src="logo.png" alt="AgilSoft GmbH Logo" style="height: 80px; margin-right: 10px;">
+                <h1 style="font-size: 1.5em; margin: 0;">Agiloft GmbH</h1>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="#personal">Persönliches</a></li>
+                    <li><a href="#it-support">IT-Support</a></li>
+                    <li>
+                        <a href="#workstations">Workstations</a>
+                        <ul class="submenu">
+                            <li><a href="workstation.html">Eine Workstation</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="#ticketsystem">Ticketsystem</a>
+                        <ul class="submenu">
+                            <li><a href="#new-ticket">Neues Ticket</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#mitarbeiter">Mitarbeiter</a>
+                    </li>
+                    <li>
+                        <a href="#entwickler">Entwickler</a>
+                        <ul class="submenu">
+                            <li><a href="Styleguide.html">Code Styleguides</a></li>
+                            <li><a href="scrum.html">Vorgehensmodelle (Scrum)</a></li>
+                            <li><a href="#tools">Entwicklungstools</a></li>
+                            <li>
+                                <a href="#linux">Linux</a>
+                                <ul class="submenu">
+                                    <li><a href="#linux-commands">Dateisystem-Befehle</a></li>
+                                    <li><a href="#linux-table">Tabelle</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+    </header>
+    <section class="felex-contnair">
+        <div id="ticketsystem" style="padding: 20px;">
+            <h2>Neues Ticket</h2>
+            <form action="https://bib-server.de/tickets" method="POST" class="ticket-form">
+
+                <label for="Titel">Titel: </label>
+                <input type="text" id="Titel" name="Titel">
+                <br>
+                <label for="Text">Text: </label>
+                <input type="text" id="Text" name="Text"><br>
+                <br>
+                <label for="status">Status: </label>
+                <select name="status" id="status">
+                    <option value="normal">Normal </option>
+                    <option value="dringend"> Dringend</option>
+                </select>
+                <br>
+                <label for="ArtdesTickets ">Art des Tickets</label>
+                <select name="ArtdesTickets#" id="ArtdesTickets">
+                    <option value="anfrage">Anfrage</option>
+                    <option value="störung">Störung</option>
+                    <option value="idee">Idee</option>
+                    <option value="beschaffung">Beschaffung</option>p
+                </select><br>
+
+                <button type="submit">Ticket absenden</button>
+
+
+            </form>
+        </div>
+        <div id="mitarbeiter" style="padding: 20px;">
+            <h2>Mitarbeiter</h2>
+            <ul>
+                <li>Amine Kansra - Support</li>
+                <li>Lisa Müller - Technik</li>
+                <li>Ali Khan - Kundenservice</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+</html>
