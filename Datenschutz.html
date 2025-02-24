@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agiloft Intranet</title>
     <link rel="stylesheet" href="newindix.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <header style="background-color: #102d50; color: white; padding: 10px 20px;">
         <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -26,11 +27,11 @@
 
                     </li>
                     <li>
-                        <a href="#ticketsystem">Ticketsystem</a>
+                        <a href="NeuTick.html">Ticketsystem</a>
                         <ul class="submenu">
-                            <li><a href="#new-ticket">Neues Ticket</a></li>
+                            <li><a href="NeuTick.html">Neues Ticket</a></li>
                         </ul>
-                    </li>
+                    </li>  
                     <li><a href="Mitarbeiter.html">Mitarbeiter</a></li>
                     <li>
                         <a href="#entwickler">Entwickler</a>
@@ -49,47 +50,34 @@
                     </li>
                 </ul>
             </nav>
+          
 
     </header>
-   
-    <section class="felex-contnair">
-        <div id="ticketsystem" style="padding: 20px;">
-            <h2>Neues Ticket</h2>
-            
-            <form action="https://bib-server.de/tickets" method="POST" class="ticket-form">
-
-                <label for="Titel">Titel: </label>
-                <input type="text" id="Titel" name="Titel">
-                <br>
-                <label for="Text">Text: </label>
-                <input type="text" id="Text" name="Text"><br>
-                <br>
-                <label for="status">Status: </label>
-                <select name="status" id="status">
-                    <option value="normal">Normal </option>
-                    <option value="dringend"> Dringend</option>
-                </select>
-                <br>
-                <label for="ArtdesTickets ">Art des Tickets</label>
-                <select name="ArtdesTickets#" id="ArtdesTickets">
-                    <option value="anfrage">Anfrage</option>
-                    <option value="störung">Störung</option>
-                    <option value="idee">Idee</option>
-                    <option value="beschaffung">Beschaffung</option>p
-                </select><br>
-
-                <button type="submit">Ticket absenden</button>
-
-
-            </form>
-        </div>
+<Header style="background-color: deepskyblue;">
+    <h2 style="font-family: 'Santa Catalina'; " >Unsere Datenschutz</h2>
+</header>
+<div style="margin-bottom: 90px; max-width: 1083.6px; padding-left: 200px; box-shadow: 2px #102d50;" >
+<div class="neudate">
+<h2>Datenschutzerklärung</h2>
+        <p><strong>1. Allgemeine Hinweise</strong></p>
+        <p>Der Schutz Ihrer persönlichen Daten ist uns wichtig. In dieser Datenschutzerklärung erfahren Sie, welche Daten wir erheben und wie wir sie nutzen.</p>
         
-
-    </section>
+        <p><strong>2. Erhebung und Speicherung personenbezogener Daten</strong></p>
+        <p>Wir erheben und speichern automatisch Informationen, die Ihr Browser an uns übermittelt, z. B. IP-Adresse, Browsertyp und besuchte Seiten.</p>
+        
+        <p><strong>3. Verwendung der Daten</strong></p>
+        <p>Ihre Daten werden nur zur Verbesserung unseres Angebots und zur Bearbeitung Ihrer Anfragen verwendet.</p>
+        
+        <p><strong>4. Weitergabe von Daten</strong></p>
+        <p>Wir geben keine personenbezogenen Daten ohne Ihre Zustimmung weiter, es sei denn, es besteht eine gesetzliche Verpflichtung.</p>
+        
+        <p><strong>5. Ihre Rechte</strong></p>
+        <p>Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer gespeicherten Daten. Kontaktieren Sie uns dazu unter info@agiloft.de.</p>
+    </div>
+</div>
     <footer>
         <a href="impressum.html">Impressum</a>
         <a href="Datenschutz.html">Datenschutz</a>
         <a href="personlich.html">Kontakt</a>
     </footer>
-
 </html>

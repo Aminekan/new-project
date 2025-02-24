@@ -755,6 +755,7 @@ footer a:hover {
     height: 1px;
     max-width: 1317px;
     margin-top: 65px;
+    margin-left: 40px;
 }
 .heade {
     padding: 80px;
@@ -820,7 +821,7 @@ footer a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-
+    height: 530px;
 }
 
 .image .profile-img {
@@ -988,7 +989,8 @@ footer a:hover {
     justify-content: space-around;
     padding: 20px;
     background-color: #f4f4f4;
-    margin-top: 93.0px;
+    margin-top: 60.8px;
+    margin-bottom: 100px;
 }
 .mitarbeiter{
     background-color: #fff;
@@ -1023,5 +1025,34 @@ align-items: center;
 .mit .arbeit{
     margin-top: 40px;
     border-bottom: 3px solid  #007BFF;
-    
+}
+.felex-contnair {
+    background-image: url('colorful-background-with-yellow-blue-geometric-pattern_481527-25413.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.neudate{
+     background-color: #f1f1f1;
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: 60px;
+     
+}
+.ins{
+    background-color: #f2eeea;
+    border-left: 7px solid #1f8bff;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding: 4px;
+}
+.uber-uns .ins{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.unss{
+    padding-left: 360px;
 }

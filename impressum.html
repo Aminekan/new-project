@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agiloft Intranet</title>
     <link rel="stylesheet" href="newindix.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <header style="background-color: #102d50; color: white; padding: 10px 20px;">
         <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -26,11 +27,11 @@
 
                     </li>
                     <li>
-                        <a href="#ticketsystem">Ticketsystem</a>
+                        <a href="NeuTick.html">Ticketsystem</a>
                         <ul class="submenu">
-                            <li><a href="#new-ticket">Neues Ticket</a></li>
+                            <li><a href="NeuTick.html">Neues Ticket</a></li>
                         </ul>
-                    </li>
+                    </li>  
                     <li><a href="Mitarbeiter.html">Mitarbeiter</a></li>
                     <li>
                         <a href="#entwickler">Entwickler</a>
@@ -49,47 +50,30 @@
                     </li>
                 </ul>
             </nav>
+          
 
     </header>
-   
-    <section class="felex-contnair">
-        <div id="ticketsystem" style="padding: 20px;">
-            <h2>Neues Ticket</h2>
-            
-            <form action="https://bib-server.de/tickets" method="POST" class="ticket-form">
+<Header style="background-color: deepskyblue;">
+    <h2 style="font-family: 'Santa Catalina'; " >Unser Impressum</h2>
+</Header>
 
-                <label for="Titel">Titel: </label>
-                <input type="text" id="Titel" name="Titel">
-                <br>
-                <label for="Text">Text: </label>
-                <input type="text" id="Text" name="Text"><br>
-                <br>
-                <label for="status">Status: </label>
-                <select name="status" id="status">
-                    <option value="normal">Normal </option>
-                    <option value="dringend"> Dringend</option>
-                </select>
-                <br>
-                <label for="ArtdesTickets ">Art des Tickets</label>
-                <select name="ArtdesTickets#" id="ArtdesTickets">
-                    <option value="anfrage">Anfrage</option>
-                    <option value="störung">Störung</option>
-                    <option value="idee">Idee</option>
-                    <option value="beschaffung">Beschaffung</option>p
-                </select><br>
-
-                <button type="submit">Ticket absenden</button>
-
-
-            </form>
-        </div>
-        
-
-    </section>
-    <footer>
+    <div class="container" style="margin-bottom: 57px;">
+        <h1>Impressum</h1>
+        <p class="info"><strong>Firmenname:</strong> Agiloft</p>
+        <p class="info"><strong>Adresse:</strong> Musterstraße 1, 12345 Musterstadt</p>
+        <p class="info"><strong>Telefon:</strong> +49 123 456789</p>
+        <p class="info"><strong>E-Mail:</strong> info@agiloft.de</p>
+        <p class="info"><strong>Vertreten durch:</strong> Max Mustermann</p>
+        <p class="info"><strong>Handelsregister:</strong> Amtsgericht Musterstadt, HRB 123456</p>
+        <p class="info"><strong>Umsatzsteuer-ID:</strong> DE123456789</p>
+        <p class="info"><strong>Verantwortlich für den Inhalt:</strong> Max Mustermann, Adresse wie oben</p>
+        <p><strong>EU-Streitschlichtung:</strong> <a href="https://ec.europa.eu/consumers/odr" target="_blank">Plattform zur Online-Streitbeilegung</a></p>
+        <p><strong>Haftung für Inhalte:</strong> Wir sind gemäß § 7 Abs.1 TMG für eigene Inhalte verantwortlich.</p>
+        <p><strong>Haftung für Links:</strong> Wir übernehmen keine Haftung für externe Links.</p>
+    </div>
+    <footer >
         <a href="impressum.html">Impressum</a>
         <a href="Datenschutz.html">Datenschutz</a>
         <a href="personlich.html">Kontakt</a>
     </footer>
-
-</html>
+    </html>
